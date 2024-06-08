@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verve Space</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Verve Space</div>
+      
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+      </label>
+    </nav>
+  </header>
+
+  <section id="home" class="home-section">
+    <div class="home-content">
+      <h1>Welcome to Our Interior Design Studio</h1>
+      <p>We create spaces that inspire and delight.</p>
+    </div>
+  </section>
+
+  <section id="portfolio" class="portfolio-section">
+    <h2>Our Portfolio</h2>
+    <div class="slider">
+      <div class="slide">
+        <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aW50ZXJpb3IlMjBkZXNpZ258ZW58MHx8MHx8fDA%3D" alt="Interior Demo 1">
+        <div class="slide-caption">Interior Demo 1</div>
+      </div>
+      <div class="slide">
+        <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aW50ZXJpb3IlMjBkZXNpZ258ZW58MHx8MHx8fDA%3D" alt="Interior Demo 2">
+        <div class="slide-caption">Interior Demo 2</div>
+      </div>
+      <div class="slide">
+        <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aW50ZXJpb3IlMjBkZXNpZ258ZW58MHx8MHx8fDA%3D" alt="Interior Demo 3">
+        <div class="slide-caption">Interior Demo 3</div>
+      </div>
+      <!-- Add more slides as needed -->
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section">
+    <h2>Contact Us</h2>
+    <div class="contact-form">
+      <form id="contactForm" action="/send_email" method="post">
+        <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+        <textarea id="query" name="query" placeholder="Your Query" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2024 Interior Design Studio. All rights reserved.</p>
+      <ul class="footer-links">
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
